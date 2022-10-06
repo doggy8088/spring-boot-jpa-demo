@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/Home
+###
+GET http://localhost:8080/api/Home/Courses
+
+###
+POST http://localhost:8080/api/Home
+
+Content-Type: application/json
+
+{"id": 123}
